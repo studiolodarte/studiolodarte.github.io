@@ -1,0 +1,815 @@
+---
+################################################################################
+################################################################################
+##                                                                            ##
+##                 Rechtliche Hinweise und Nutzungsbedingungen                ##
+##                                                                            ##
+################################################################################
+################################################################################
+#
+# Dieses Template setzt die gesetzlichen Vorgaben der Anbieterkennzeichnung 
+# aus der DSGVO um. Nicht berücksichtigt werden spezielle gesetzlich  
+# notwendige Angaben, etwa aus dem Bereich des Fernabsatzrechts.
+#
+# DIESE VORLAGE KANN KEINE RECHTSBERATUNG ERSETZEN! KONSULTIERE UNBEDINGT VOR
+# EINER GRÖSZEREN AKTION MIT HOHER REICHWEITE EINEN RECHTSANWALT. DIE ZUR-VER-
+# FÜGUNGSTELLUNG DIESER INFORMATIONEN DIENT DEINER ORIENTIERUNG UND SOLL DIR ZU
+# EINEM SCHNELLSTART VERHELFEN UND KANN KEINE RECHTSBERATUNG ERSETZEN, DA DIE 
+# VON DIR GEMACHTEN ANGABEN AUTOMATISIERT UND SOFTWAREBASIERT UMGESETZT WERDEN.
+# BEI KONKRETEN FRAGEN LASS DICH BITTE UNBEDINGT VON EINEM SPEZIALISIERTEN
+# RECHTSANWALT BERATEN.
+#
+# DIE EINBINDUNG DER VON DIESEM TEMPLATE GENERIERTEN DATENSCHUTZERKLÄRUNG
+# ERFOLGT AUSSCHLIESZLICH AUF EIGENES RISIKO. EINE HAFTUNG KANN NICHT ÜBERNOMMEN
+# WERDEN.
+#
+#
+# Alle Infos zur DSGVO findest du unter https://gdpr-info.eu/
+#
+################################################################################
+################################################################################
+################################################################################
+#
+### Allgemeine Einstellungen
+#
+#
+# Das zu verwendende Layout File (nicht ändern!)
+#
+layout: datenschutz
+#
+#
+#
+################################################################################
+################################################################################
+#
+### 1. Datenschutz auf einen Blick
+#
+# Die DSGVO schreibt vor, dass die Datenschutzerklärung „in allgemein verständ-
+# licher Form“ informieren muss. Aus diesem Grund empfehlen wir die wichtigsten 
+# Punkte am Anfang der Erklärung zusammenzufassen.
+#
+################################################################################
+#
+preamble :
+  #
+  # Hostest du deine Seite auf Github und verwendest du keine zusätzliche
+  # Besucheranalysesoftware, setz diese Variable auf true; sobald du persönliche
+  # Nutzerdaten erhebst, muss dieser Schalter auf false gelegt werden.
+  #
+  ghpages: true
+#
+# 
+## Allgemeine Hinweise
+#
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+#
+# Soll die Datenschutzerklärung einen allgemeinen Datenschutzpassus beinhalten?
+#
+  allgemein: false 
+#
+################################################################################
+#
+## Datenerfassung auf unserer Website
+#
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+#
+# Soll über die verantwortliche Stelle und den Umgang mit Nutzerdaten  
+# informiert werden?
+# 
+  website  : false
+#
+################################################################################
+#
+## Analyse-Tools und Tools von Drittanbietern
+#
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+#
+# Soll eine allgemeine Information über Analyse-Tools und Plugins von 
+# Drittanbietern angebracht werden?
+# 
+  tools : false
+#
+#
+################################################################################
+################################################################################
+################################################################################
+#
+### 2. Allgemeine Hinweise und Pflichtinformationen
+#
+# Hier informierst du die Besucher deiner Website über grundlegende  
+# datenschutzrechtliche Vorgaben und die verantwortliche Stelle.
+#
+################################################################################
+#
+hinweis : 
+#
+#
+## Allgemeine Datenschutzerklärung
+#
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# 
+# Soll ein allgemeiner Datenschutzpassus eingefügt werden?
+#
+  zeigen : false
+#
+################################################################################
+#
+## Hinweis zur verantwortlichen Stelle
+# 
+# Die DSGVO schreibt vor, die verantwortliche Stelle in der  
+# Datenschutzerklärung zu benennen. 
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# 
+# Möchtest du einen Hinweis zur verantwortlichen Stelle aufnehmen?
+#
+  stelle : false
+# 
+# Die verantwortliche Stelle ist der Betreiber der Website, wie er auch im 
+# Impressum benannt ist. Die Daten pflegst du in _config.yml unter der Property
+# betreiber ein.
+#
+################################################################################
+#
+## Widerruf Ihrer Einwilligung zur Datenverarbeitung
+#
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# 
+# Soll der Nutzer über sein Recht zum Widerruf von Einwilligungen informiert 
+# werden?
+#
+pflicht:
+#
+  widerruf : false
+#
+################################################################################
+#
+## Beschwerderecht bei der zuständigen Aufsichtsbehörde
+#
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# 
+# Soll über das Beschwerderecht gegenüber den Aufsichtsbehörden informiert 
+# werden?
+#
+  aufsichtsbehoerde : true
+#
+# Schweiz:
+# --------
+# https://www.haerting.de/neuigkeit/dsgvo-zustaendige-aufsichtsbehoerde-bei-grenzueberschreitender-verarbeitung
+# Da wir über keine Niederlassung in einem EU-Staat verfügen, entfällt für 
+# uns im Falle eines Datenschutzverstoßes die Meldepflicht in der EU
+#
+# Deutschland:
+# ------------
+# Im Falle datenschutzrechtlicher Verstöße steht dem Betroffenen ein Beschwerderecht 
+# bei der zuständigen Aufsichtsbehörde zu. Zuständige Aufsichtsbehörde in 
+# datenschutzrechtlichen Fragen ist der Landesdatenschutzbeauftragte des Bundeslandes, 
+# in dem unser Unternehmen seinen Sitz hat. Eine Liste der Datenschutzbeauftragten 
+# sowie deren Kontaktdaten können folgendem Link entnommen werden: 
+# <a href="https://www.bfdi.bund.de/DE/Infothek/Anschriften_Links/anschriften_links-node.html">https://www.bfdi.bund.de/DE/Infothek/Anschriften_Links/anschriften_links-node.html</a>
+#
+################################################################################
+#
+## Recht auf Datenübertragbarkeit
+#
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# 
+# Soll der Nutzer über sein Recht auf Datenübertragbarkeit informiert werden?
+#
+  datenuebertragbarkeit : false
+#
+################################################################################
+#
+## SSL- bzw. TLS-Verschlüsselung auf der Website
+#
+# Das Datenschutzrecht fordert für die Übertragung von Nutzerdaten etwa per 
+# Kontaktformular eine Verschlüsselung.
+#
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# 
+# Soll ein Hinweis zur SSL- / TLS-Verschlüsselung aufgenommen werden?
+#
+  ssl : true
+#
+################################################################################
+#
+## Verschlüsselter Zahlungsverkehr auf der Website
+#
+# Das Datenschutzrecht fordert für die Übertragung von Zahlungsdaten eine 
+# Verschlüsselung.
+#
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# 
+# Soll ein Hinweis zur Verschlüsselung von Zahlungsprozessen eingefügt werden?
+#
+  encryption : false
+#
+################################################################################
+#
+## Auskunft, Sperrung und Löschung von Daten
+#
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# 
+# Soll der Nutzer über seine Rechte auf Auskunft, Sperrung und Löschung seiner 
+# Daten informiert werden?
+#
+  auskunft : false
+#
+################################################################################
+#
+## Widerspruch gegen Werbe-Mails
+#
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# 
+# Möchtest du einen Widerspruch gegen Werbe-E-Mails in die Datenschutzerklärung 
+# aufnehmen?
+#
+  no_spam : true
+#
+#
+#
+################################################################################
+################################################################################
+################################################################################
+#
+### 3. Datenschutzbeauftragter
+#
+# Hier informierst du die Besucher deiner Website darüber, ob ein 
+# Datenschutzbeauftragter bestellt ist.
+#
+################################################################################
+#
+## Gesetzlich vorgeschriebener Datenschutzbeauftragter
+#
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# 
+# Verfügt dein Unternehmen über einen Datenschutzbeauftragten?
+#
+beauftragter : 
+#
+  beauftragter: false
+#
+# Gib hier die Kontaktdaten des Datenschutzbeauftragten mit vollem Namen bzw. 
+# die vollständige Unternehmensbezeichung sowie die vollständige Anschrift an.
+#
+  name     : Mickey Mouse
+  adresse  : Disneyland 1
+  ort      : 12345 Tamper, FL
+  land     : USA
+  telefon  : +1 234 2342342
+  email    : mickey@disney.com
+#
+#
+#
+################################################################################
+################################################################################
+################################################################################
+#
+### 4. Datenerfassung auf unserer Website
+# 
+# Hier informierst du die Besucher über die Datenerfassung, die auf deiner 
+# Website stattfindet.
+#
+################################################################################
+#
+## Cookies
+#
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#
+# Nutzt die Webeseite Cookies?
+#
+datenerfassung :
+#
+  cookies : false
+#
+# Es ist bis zum Inkrafttreten der e-Privacy Verordnung (eigentlich 2019) egal,
+# ob es sich um  eigene oder Dritt-Cookies handelt.
+#
+################################################################################
+#
+## Server-Log-Files
+#
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#
+# Speichert der Website-Server Nutzerinformationen in Log-Dateien?
+#
+  log_files : false
+#
+################################################################################
+#
+## Kontaktformular
+#
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#
+# Verfügt deine Website über ein Kontaktformular?
+#
+  contact_form : false
+#
+################################################################################
+#
+## Registrierung auf der Website
+#
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#
+# Verfügt deine Website über eine Registrierungsfunktion für Nutzer?
+#
+  registration : false
+#
+################################################################################
+#
+## Facebook Connect
+#
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#
+# Können sich Nutzer über Facebook Connect auf deiner Website anmelden?
+# 
+  facebook_connect : false
+#
+################################################################################
+#
+## Kommentarfunktion
+#
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#
+# Können sich Nutzer für die Kommentarfunktion auf deiner Website registrieren?
+#
+  comments : false
+#
+# Die Kommentarfunktionen sind funktional unterschiedlich umfangreich und können
+# zahlreiche Informationen zum Nutzer abspeichern. Gib nachfolgend an, wie deine 
+# Kommentarfunktion mit Daten umgeht.
+#
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#
+# Angabe der E-Mail-Adresse:
+#
+# Ist für die Kommentarfunktion die Angabe der E-Mail-Adresse notwendig?
+#
+  comments_email : false
+#
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#
+# IP-Adresse:
+#
+# Wird für die Kommentarfunktion die IP-Adresse des Nutzers gespeichert?
+#
+  comments_ip : false
+#
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#
+# Abonnementfunktion:
+#
+# Können Kommentare abonniert werden?
+#
+  comments_abo : false
+#
+################################################################################
+#
+## Verarbeiten von Kunden- und Vertragsdaten
+#
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#
+# Werden auf der Website Verträge mit Nutzern abgeschlossen?
+#
+  kundendaten : false
+#
+################################################################################
+#
+## Datenübermittlung bei Vertragsschluss für Online-Shops, Händler 
+## und Warenversand
+#
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#
+# Handelt es sich bei der Website um einen Online-Shop?
+#
+  shop : false
+#
+################################################################################
+#
+## Datenübermittlung bei Vertragsschluss für Dienstleistungen und digitale 
+## Inhalte
+#
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#
+# Werden auf der Website Verträge über Dienstleistungen oder digitale Inhalte 
+# abgeschlossen?
+#
+  vertragsabschluss : false
+#
+#
+#
+################################################################################
+################################################################################
+################################################################################
+#
+### 5. Soziale Medien
+#
+# Hier informierst du die Besucher deiner Website darüber, ob Plugins und Tools 
+# von sozialen Netzwerken wie Facebook auf der Seite eingebunden sind.
+#
+# Das Einbinden der Funktionalitäten und Plugins vieler Social Media Dienste auf 
+# Websites ist in Deutschland nicht ohne rechtliches Risiko möglich. Das liegt
+# daran, dass meist ungefragt Daten der Websitebesucher an den Anbieter des 
+# Dienstes übertragen werden. Nach Ansicht einiger Gerichte und Datenschutz-
+# behörden genügt dafür ein Hinweis in der Datenschutzerklärung nicht. Empfohlen 
+# wird hier eine ausdrückliche Einwilligung der Nutzer.
+#
+################################################################################
+#
+## Facebook-Plugins (Like & Share-Button)
+# 
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+#
+# Werden auf deiner Website Plugins von Facebook (Like-/Share-Button) 
+# eingebunden?
+#
+social_media_plugin: 
+#
+  facebook : false
+#
+################################################################################
+#
+## Twitter Plugin
+#
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+#
+# Werden auf deiner Website Plugins von Twitter eingebunden?
+#
+  twitter : false
+#
+################################################################################
+#
+## Instagram Plugin
+#
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+#
+# Werden auf deiner Website Plugins von Instagram eingebunden?
+#
+  instagram : false
+#
+################################################################################
+#
+## Tumblr Plugin
+#
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+#
+#  Werden auf deiner Website Plugins von Tumblr eingebunden?
+#
+  tumblr : false 
+#
+################################################################################
+#
+## LinkedIn Plugin
+#
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+#
+# Werden auf deiner Website Plugins von LinkedIn eingebunden?
+#
+  linked_in : false
+#
+################################################################################
+#
+## XING Plugin
+#
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+#
+# Werden auf deiner Website Plugins von XING eingebunden?
+# 
+  xing : false
+#
+################################################################################
+#
+## Pinterest Plugin
+#
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+#
+# Werden auf deiner Website Plugins von Pinterest eingebunde?
+#
+  pinterest : false
+#
+#
+#
+################################################################################
+################################################################################
+################################################################################
+#
+### 6. Analyse-Tools und Werbung
+#
+# Hier informierst du die Besucher darüber, welche Plugins oder Tools du für  
+# Statistik- oder Werbezwecke auf deiner Website nutzt.
+#
+################################################################################
+#
+## Google Analytics
+#
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+#
+# Verwendet die Website Google Analytics zum Erfassen des Nutzerverhaltens?
+#
+analytics: 
+#
+  google : false
+# 
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+#
+# Google Analytics Auftragsdatenverarbeitung:
+#
+# Hast du mit Google einen Vertrag zur Auftragsdatenverarbeitung abgeschlossen?
+#
+  google_av : false
+#
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+#
+# Google Analytics IP-Anonymisierung:
+#
+# Soll der Hinweis auf IP-Anonymisierung in Google Analytics angezeigt werden?
+# Achtung! Das setzt voraus, dass du in deinem Analytics Konto entsprechende
+# Einstellungen vorgenommen hast.
+#
+  google_ip_anonymisierung : false
+#
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+#
+# Google Analytics Demografische Merkmale:
+#
+# Wird die Funktion „demografische Merkmale“ von Google Analytics benutzt?
+#
+  google_demographics : false
+#
+################################################################################
+#
+## etracker
+#
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#
+# Nutzt deine Website etracker zur Analyse des Nutzerverhaltens?
+#
+  etracker : false
+#
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#
+# etracker Auftragsdatenverarbeitung:
+#
+# Hast du einen Vertrag zur Auftragsdatenverarbeitung (ADV) abgeschlossen?
+#
+  etracker_av : false
+#
+################################################################################
+#
+## Matomo (ehemals Piwik)
+#
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#
+# Nutzt deine Website Matomo (ehemals Piwik) zur Analyse des Nutzerverhaltens?
+# 
+  matomo : false
+#
+################################################################################
+#
+## Google AdSense
+#
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#
+# Werden auf deiner Website Werbeanzeigen über Google AdSense eingebunden?
+#
+  google_adsense : false
+#
+################################################################################
+#
+## Google Analytics Remarketing
+#
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#
+# Nutzt deine Website Google Analytics Remarketing?
+#
+  google_remarketing : false
+#
+################################################################################
+#
+## Google AdWords und Google Conversion-Tracking
+#
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#
+# Nutzt deine Website AdWords und Google Conversion-Tracking?
+#
+  google_adwords : false
+#
+################################################################################
+#
+## Google reCAPTCHA
+#
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#
+# Nutzt deine Website Google reCAPTCHA?
+#
+  recaptcha : false
+#
+################################################################################
+#
+## Facebook Pixel
+# 
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+#
+# Verwendet deine Website den Facebook Pixel?
+#
+  facebook_pixel : false
+#
+#
+#
+################################################################################
+################################################################################
+################################################################################
+#
+### 7. Newsletterdaten
+#
+# Hier informierst du die Besucher deiner Website darüber, ob du Newsletter  
+# versendest und welchen Anbieter du für den Versand nutzt.
+#
+################################################################################
+#
+## Newsletterdaten
+#
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+#
+#  Soll die Datenschutzerklärung einen Passus zum Newsletter-Versand enthalten?
+#
+newsletter : 
+#
+  allgemein: false
+#
+################################################################################
+#
+## Klick-Tipp
+#
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+#
+# Nutzt die Website Klick-Tipp zum Versand des Newsletters?
+#
+  klick_tipp : false
+#
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# 
+# Hast du einen Vertrag zur Auftragsdatenverarbeitung (ADV) abgeschlossen?
+#
+  klick_tipp_av : false
+#
+#
+#
+#
+# Weitere Anbieter von Marketing-Automation und Newsletter-Software:
+# 
+# * Quentn
+#
+#
+################################################################################
+################################################################################
+################################################################################
+#
+### 8. Plugins und Tools
+#
+# Hier informierst du die Besucher darüber, welche sonstigen Plugins und Tools 
+# auf deiner Website eingebunden sind.
+#
+################################################################################
+#
+## YouTube
+#
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#
+# Wird auf deiner Website YouTube eingebunden?
+#
+plugins: 
+#
+  youtube : false
+#
+################################################################################
+#
+## Vimeo
+#
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#
+# Wird auf deiner Website Vimeo eingebunden?
+#
+  vimeo : false
+#
+################################################################################
+#
+## Google Web Fonts
+#
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#
+# Werden auf deiner Website von Google bereitgestellte Schriftarten 
+# (Google Web Fonts) eingebunden?
+#
+  google_web_fonts : false
+#
+################################################################################
+#
+## Google Maps
+#
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#
+# Wird auf deiner Website Google Maps eingebunden?
+#
+  google_maps : false
+#
+################################################################################
+#
+## SoundCloud
+#
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+#
+# Wird auf deiner Website SoundCloud eingebunden?
+#
+  sound_cloud : false
+#
+################################################################################
+#
+## Spotify
+#
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#
+# Wird auf deiner Website Spotify eingebunden?
+#
+  spotify : false
+#
+#
+#
+################################################################################
+################################################################################
+################################################################################
+#
+### 9. Online Marketing und Partnerprogramme
+# 
+# Hier informierst du die Besucher deiner Website über die Teilnahme an 
+# Partnernetzwerken.
+#
+partner_programms: 
+#
+#
+################################################################################
+#
+## Amazon Partnerprogramm
+#
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#
+# Wird auf deiner Website das Amazon Partnerprogramm eingebunden?
+#
+  amazon: false
+#
+#
+#
+################################################################################
+################################################################################
+################################################################################
+#
+### 10. Zahlungsanbieter
+#
+# Hier informierst du die Besucher über Zahlungsanbieter, die du auf deiner 
+# Website bzw. im Shop integriert hast.
+#
+payment_providers:
+#
+#
+################################################################################
+#
+## PayPal
+#
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#
+# Nutzt deine Website PayPal zur Zahlungsabwicklung?
+#
+  paypal : false
+#
+################################################################################
+#
+## Klarna
+#
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#
+# Nutzt deine Website Klarna zur Zahlungsabwicklung?
+#
+  klarna : false
+#
+################################################################################
+#
+## Sofortüberweisung
+#
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#
+# Nutzt deine Website Sofortüberweisung zur Zahlungsabwicklung?
+#
+  sofort : false
+#
+################################################################################
+#
+## paydirect
+#
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#
+# Nutzt deine Website paydirekt zur Zahlungsabwicklung?
+# 
+  paydirect : false
+#
+#
+# END OF SETTINGS.
+---

@@ -1,0 +1,184 @@
+#
+# Diese Konfigurationsdatei ist für Einstellungen gedacht, die sich auf dein
+# gesamtes Blog auswirken. Die Werte werden normalerweise einmal eingerichtet 
+# und danach nur noch selten verändert. 
+# Wenn du diese Datei sehr häufiger bearbeitest, solltest du die Datendateien-
+# funktion von Jekyll verwenden. Mehr dazu unter:
+# https://jekyllrb.com/docs/datafiles/
+#
+# Aus technischen Gründen wird diese Datei *NICHT* automatisch neu geladen, 
+# wenn du die lokale Vorschau mit `jekyll serve` oder `bundle exec jekyll serve`
+# verwendest. Wenn du diese Datei änderst, starte den Serverprozess neu.
+# 
+# Benötigst du Hilfe beim YAML-Syntax, benutze folgende Kurzreferenzen:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+################################################################################
+################################################################################
+##                                                                            ##
+##                 Allgemeine Website Daten (inkl. Betreiber)                 ##
+##                                                                            ##
+################################################################################
+################################################################################
+#
+# Seiten Variablen werden verwendet, um deine neue Site zu personalisieren. Wenn 
+# du in die HTML-Dateien schaust, kannst du sehen, dass du über {{site.title}}, 
+# {{site.email}} usw. darauf zugreifen kannst. Du kannst jede gewünschte 
+# benutzerdefinierte Variable erstellen, auf die du dann in deinen Vorlagen über 
+# {{site.myvariable}} zugreifen kannst.
+#
+# Der Titel der Website; wird in den Metadaten am Titel der einzelnen Seite
+# angehängt; unterstützt SEO Ranking für die Kernthemen deiner Website.
+#
+title: Titel der Website
+#
+# Autor der Website; wird auch im Impressum und bei den Betreiberdaten in der
+# Datenschutzerklärung angezeigt; verwende eine Mailadresse, die für die
+# Öffentlichkeit angelegt ist; SPAM wird in letzter Zeit kaum noch an solche
+# Adressen gesendet.
+#
+author:
+  name: maxi
+  display: Maximiliane Musterfrau
+  email: maxi@musterfrau.at
+#
+# Website Betreiberdaten; werden im Impressum (Pflicht) und in den Datenschutz-
+# bestimmungen angezeigt (optional); für DSGVO und ECG relevant.
+#
+betreiber:  
+  name: "Maximiliane Musterfrau"
+  adresse: "Musterstraße 5"
+  ort: "1234 Musterstadt"
+  land: "Österreich"
+  telefon: "Telefon: +43 123 456 7890"
+  email: "E-Mail: maxi@musterfrau.at"
+#
+# Eine kurze Beschreibung der Inhalte auf dieser Website; die spitze Klammer 
+# der Property eröffnet ein mehrzeiliges Datenfeld; achte auf die Einrückung; 
+# der Feldwert für "description:" bei "since:" 
+description: > 
+  Beschreibe hier deine neue Website. Du kannst diese Inhalte in _config.yml 
+  bearbeiten. Dieser Text wird im Dokumentkopf deiner Website angezeigt – damit
+  auch in den Google-Suchergebnisse und in der Seitebeschreibung in feed.xml.
+#
+#
+# Copyright von; wird im Footer angezeigt; bis ist automatisch das aktuelle Jahr
+#  
+since: 2021
+#
+# Das Locale für die Website; wird im HTML Root-Tag verwendet; relevant für SEO.
+#
+locale: "de-AT"
+# 
+# 
+################################################################################
+##                                                                            ##
+##                          Theme und Customizing                             ##
+##                                                                            ##
+################################################################################
+#
+# Über die folgende Property kann das Theme ausgewählt werden; deine Inhalte
+# können auch mit jedem beliebigen anderen öffentlich auf Github gehosteten
+# Theme versehen werden.
+#
+remote_theme: storyfaktor/klartext
+#
+# Einstellungen für das Theme
+#
+klartext: 
+  #
+  # Wie der Formatstring aufgebaut ist, erfährst du in der Dokumentation von
+  # Shopify;
+  # https://shopify.github.io/liquid/filters/date/ 
+  #
+  date_format: "%d. %B %y"
+  #
+  # Links zu social media accounts in der Fußzeile; wird über die display 
+  # Property gesteuert (true: Social Icons + Links zu Plattformen anzeigen);
+  # Plattformen, die nicht angezeigt werden sollen werden einfach auskommentiert;
+  # dazu verwendest du die Raute (#); hinter aktivierte Plattformen schreibst
+  # du den jeweiligen Benutzernamen.
+  social:
+    #
+    # Schalter zum aktivieren/deaktivieren zur 
+    # Anzeige der Social Icons/Links
+    #
+    display: true
+    facebook: maxi 
+    # flickr: 
+    # github:   
+    # instagram:  
+    # linkedin:  
+    # pinterest:
+    # stackoverflow: 
+    # telegram: 
+    # twitter: 
+    # youtube:
+    #   user:
+    #   channel:
+    #   name: 
+# 
+# 
+################################################################################
+##                                                                            ##
+##                          Kramdown settings                                 ##
+##                                                                            ##
+################################################################################
+#
+# https://jekyllrb.com/docs/configuration/markdown/
+# 
+kramdown:  
+  input: GFM
+  math_engine: mathjax
+  syntax_highlighter: rouge
+  footnote_backlink: ▲
+  parse_block_html: true
+# 
+# 
+################################################################################
+##                                                                            ##
+##                          Standardwerten für Posts                          ##
+##                                                                            ##
+################################################################################
+#
+# https://github.com/jekyll/jekyll/issues/4145
+#
+defaults:
+  - scope:
+      type: posts
+    values:
+      permalink: /blog/:title/
+      author: "Maximiliane Musterfrau"
+#
+# 
+################################################################################
+##                                                                            ##
+##                          Verwendete Plugins                                ##
+##                                                                            ##
+################################################################################
+#
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-remote-theme
+#
+# 
+################################################################################
+##                                                                            ##
+##                          Von der Verarbeitung ausschließen.                ##
+##                                                                            ##
+################################################################################
+#
+# Die folgenden Elemente werden standardmäßig nicht verarbeitet.
+# Alle Elemente, die hier unter der `exclude:` aufgeführt sind, werden 
+# automatisch zur internen Ausschlussliste hinzugefügt.
+# Ausgeschlossene Elemente können verarbeitet werden, indem die Verzeichnisse 
+# oder der Dateipfad ihrer Einträge explizit in `include:` aufgeführt werden.
+#
+exclude:
+   - .sass-cache/
+   - .jekyll-cache/
+   - Gemfile
+   - Gemfile.lock
+  

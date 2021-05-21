@@ -1,0 +1,38 @@
+{
+  "titel": "Datenschutzerklärung",
+  "vom": "Stand: 13. Oktober 2018",
+  "preamble": {
+    "label": ". Datenschutz auf einen Blick",
+    "blocks": {
+      "ghpages": {
+        "label": "Allgemeine Hinweise",
+        "p": [
+          "Diese Seite erhebt keine personenbezogenen Daten. Es werden keine Logfiles geschrieben. Ferner verzichten wir auf jedwedes Usertracking. In deinem Browser werden keine Cookies gesetzt."
+        ]
+      }
+    }
+  },
+  "pflicht": {
+    "blocks": {
+      "aufsichtsbehoerde": {
+        "label": "Beschwerderecht bei der zuständigen Aufsichtsbehörde",
+        "p": [
+          "Im Falle datenschutzrechtlicher Verstöße steht dir ein Beschwerderecht bei der zuständigen Aufsichtsbehörde zu. Zuständige Aufsichtsbehörde in datenschutzrechtlichen Fragen ist die Datenschutzbehörde der Republik Österreich. Eine Liste der Datenschutzbeauftragten sowie deren Kontaktdaten können folgendem Link entnommen werden: [https://www.dsb.gv.at/](https://www.dsb.gv.at/)."
+        ]
+      },
+      "ssl": {
+        "label": "SSL- bzw. TLS-Verschlüsselung",
+        "p": [
+          "Diese Seite nutzt aus Sicherheitsgründen und zum Schutz der Übertragung vertraulicher Inhalte eine SSL-bzw. TLS-Verschlüsselung. Eine verschlüsselte Verbindung erkennst du daran, dass die Adresszeile des Browsers von „http://” auf „https://” wechselt und an dem Schloss-Symbol in deiner Browserzeile.",
+          "Wenn die SSL- bzw. TLS-Verschlüsselung aktiviert ist, können die Daten, die du an uns übermittelst, nicht von Dritten mitgelesen werden."
+        ]
+      },
+      "no_spam": {
+        "label": "Widerspruch gegen Werbe-Mails",
+        "p": [
+          "Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten zur Übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien wird hiermit widersprochen. Die Betreiber der Seiten behalten sich ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen vor."
+        ]
+      }
+    }
+  }
+}
