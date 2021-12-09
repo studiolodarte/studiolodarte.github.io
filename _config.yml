@@ -31,7 +31,7 @@
 # Der Titel der Website; wird in den Metadaten am Titel der einzelnen Seite
 # angehängt; unterstützt SEO Ranking für die Kernthemen deiner Website.
 #
-title: Titel der Website
+title: Die bewußte Integration der Künste in das alltägliche Leben
 #
 # Autor der Website; wird auch im Impressum und bei den Betreiberdaten in der
 # Datenschutzerklärung angezeigt; verwende eine Mailadresse, die für die
@@ -39,33 +39,33 @@ title: Titel der Website
 # Adressen gesendet.
 #
 author:
-  name: maxi
-  display: Maximiliane Musterfrau
-  email: maxi@musterfrau.at
+  name: dgerzabek
+  display: Daphne M. Gerzabek
+  email: daphne@studiolodarte.com
 #
 # Website Betreiberdaten; werden im Impressum (Pflicht) und in den Datenschutz-
 # bestimmungen angezeigt (optional); für DSGVO und ECG relevant.
 #
 betreiber:  
-  name: "Maximiliane Musterfrau"
-  adresse: "Musterstraße 5"
-  ort: "1234 Musterstadt"
+  name: "Daphne M. Gerzabek"
+  adresse: "Volkshausstraße 4/1/5"
+  ort: "9523 Landskron"
   land: "Österreich"
-  telefon: "Telefon: +43 123 456 7890"
-  email: "E-Mail: maxi@musterfrau.at"
+  telefon: "Telefon: +43 664 974 1110"
+  email: "E-Mail: daphne@studiolodarte.com"
 #
 # Eine kurze Beschreibung der Inhalte auf dieser Website; die spitze Klammer 
 # der Property eröffnet ein mehrzeiliges Datenfeld; achte auf die Einrückung; 
 # der Feldwert für "description:" bei "since:" 
 description: > 
-  Beschreibe hier deine neue Website. Du kannst diese Inhalte in _config.yml 
-  bearbeiten. Dieser Text wird im Dokumentkopf deiner Website angezeigt – damit
-  auch in den Google-Suchergebnisse und in der Seitebeschreibung in feed.xml.
+  In Gesprächen mit Künstlern, Philosophen, Sammlern und interessierten Betrachtern
+  am Objekt Zugang, Kenntnis und Motivation zu künstlerischen Positionen erleben.
+#
 #
 #
 # Copyright von; wird im Footer angezeigt; bis ist automatisch das aktuelle Jahr
 #  
-since: 2021
+# since: 2021
 #
 # Das Locale für die Website; wird im HTML Root-Tag verwendet; relevant für SEO.
 #
@@ -104,8 +104,8 @@ klartext:
     # Schalter zum aktivieren/deaktivieren zur 
     # Anzeige der Social Icons/Links
     #
-    display: true
-    facebook: maxi 
+    display: false
+    # facebook: 
     # flickr: 
     # github:   
     # instagram:  
@@ -149,7 +149,7 @@ defaults:
       type: posts
     values:
       permalink: /blog/:title/
-      author: "Maximiliane Musterfrau"
+      author: "Daphne M. Gerzabek"
 #
 # 
 ################################################################################
